@@ -8,8 +8,6 @@ Welcome to the **Introduction to Data Engineering** project! This repository is 
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Project Overview
@@ -19,36 +17,34 @@ This project covers:
 - **Loading** data into a database or data warehouse.
 - **Automating** workflows using scheduling tools.
 
-The goal is to build a simple yet scalable data pipeline that demonstrates key data engineering principles.
+The goal is to build a simple demonstrates key data engineering principles.
 
 ## Technologies Used
 - **Python** for scripting and automation
 - **Pandas** for data manipulation
 - **SQL** for querying and database interactions
-- **Airflow** (optional) for workflow orchestration
-- **Docker** for containerization
+- **Airflow** workflow orchestration
 - **MySQL** (or any preferred database) for data storage
 
 
 ### Setup Instructions
-1. Clone the repository:
+Install dependencies:
    ```sh
-   git clone https://github.com/yourusername/data-engineering-intro.git
-   cd data-engineering-intro
+pip install apache-airflow
+pip install requests
+pip install pandas
    ```
-2. Create and activate a virtual environment:
+
+Create and activate a virtual environment:
    ```sh
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
-3. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
+
 4. Configure environment variables (if needed) in `.env` file.
 5. Run the pipeline script:
    ```sh
-   python main.py
+   python MovieDags.py
    ```
 
 ## Project Structure
