@@ -22,7 +22,7 @@ The goal is to build a simple ETL pipeline.
 - **Python** for scripting and automation
 - **Pandas** for data manipulation
 - **Airflow** workflow orchestration
-- **AWS* for virtual instance
+- **AWS** for virtual instance
 
 
 ### Setup Instructions
