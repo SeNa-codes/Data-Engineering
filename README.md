@@ -1,18 +1,17 @@
 # Data-Engineering
-# Introduction to Data Engineering
 
-Welcome to the **Introduction to Data Engineering** project! T
+
+Welcome to the **Introduction to Data Engineering** project! 
 
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ## Project Overview
 This project covers:
-- **Extracting** data from multiple sources (APIs, databases, CSV files, etc.).
+- **Extracting** data from APIs (http://www.omdbapi.com/?i=tt3896198&apikey=b1715467)
 - **Transforming** raw data into a structured format using ETL processes.
 - **Loading** data into a database or data warehouse.
 - **Automating** workflows using scheduling tools.
