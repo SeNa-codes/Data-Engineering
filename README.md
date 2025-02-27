@@ -1,7 +1,7 @@
 # Data-Engineering
 # Introduction to Data Engineering
 
-Welcome to the **Introduction to Data Engineering** project! This repository is designed to provide a hands-on introduction to core data engineering concepts, including data ingestion, transformation, storage, and pipeline automation.
+Welcome to the **Introduction to Data Engineering** project! T
 
 ## Table of Contents
 - [Project Overview](#project-overview)
