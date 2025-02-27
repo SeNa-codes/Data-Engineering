@@ -16,7 +16,7 @@ This project covers:
 - **Loading** data into a database or data warehouse.
 - **Automating** workflows using scheduling tools.
 
-The goal is to build a simple demonstration of key data engineering principles.
+The goal is to build a simple ETL pipeline.
 
 ## Technologies Used
 - **Python** for scripting and automation
