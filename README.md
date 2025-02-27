@@ -17,19 +17,20 @@ This project covers:
 - **Loading** data into a database or data warehouse.
 - **Automating** workflows using scheduling tools.
 
-The goal is to build a simple demonstrates key data engineering principles.
+The goal is to build a simple demonstration of key data engineering principles.
 
 ## Technologies Used
 - **Python** for scripting and automation
 - **Pandas** for data manipulation
-- **SQL** for querying and database interactions
 - **Airflow** workflow orchestration
-- **MySQL** (or any preferred database) for data storage
+- **AWS* for virtual instance
 
 
 ### Setup Instructions
 Install dependencies:
    ```sh
+sudo apt install python3 python3-pip python3-dev python3-venv
+python3 -m venv venv
 pip install apache-airflow
 pip install requests
 pip install pandas
@@ -49,12 +50,9 @@ Create and activate a virtual environment:
 
 ## Project Structure
 ```
-├── data/                  # Sample datasets
+├── data/                  # Data Extraction from Api
 ├── scripts/               # Data extraction and transformation scripts
-├── notebooks/             # Jupyter notebooks for analysis
-├── config/                # Configuration files
-├── docker/                # Docker-related files (if applicable)
-├── main.py                # Entry point for the pipeline
+├── MovieDags.py           # Entry point for the pipeline
 ├── requirements.txt       # Required dependencies
 ├── README.md              # Project documentation
 ```
